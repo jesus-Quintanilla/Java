@@ -1,2 +1,3 @@
-# Sample-Program
-Sample program that uses JAVA
+# Work in Java
+Java work done from home and school
+
