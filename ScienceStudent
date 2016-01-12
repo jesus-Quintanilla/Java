@@ -1,0 +1,43 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package grades;
+
+/**
+ *
+ * @author intern02
+ */
+
+public class ScienceStudent extends Student {
+ private final double SCIENCE_MIDTERM = 0.25;
+ private final double SCIENCE_FINAL=0.50;
+ private final double SCIENCE_RESEARCH=0.25;
+ private int midterm,finals,research;
+ ScienceStudent(int mid,int fin,int res){
+     midterm = mid;
+     finals = fin;
+     research = res;
+     new DisplayStudent(this);
+ }// end constructor
+ 
+ @Override
+ public int getFinal(){
+     return finals;
+ }
+ @Override
+ public int getMidterm(){
+     return midterm;
+ }
+ @Override
+ public int getResearch(){
+     return research;
+ }
+ 
+ @Override
+ public String toString(){
+     String str = "Science";
+     return str;
+ }
+ 
+}// end class
