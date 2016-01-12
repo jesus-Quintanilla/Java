@@ -1,0 +1,21 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package retailcalcdemo;
+
+/**
+ *
+ * 
+ */
+public class RetailCalcDemo {
+
+    /**
+     *  by Jesus Quintanilla
+     */
+    public static void main(String[] args) {
+    RetailCalculator retailCalculator = new RetailCalculator();  
+  
+    }
+}
